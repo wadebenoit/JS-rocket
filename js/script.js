@@ -1,13 +1,20 @@
-	var whatsMyName = function (name) {
+	
 
+var doCoolStuff = function() {
+    document.getElementById('cool').className = 'cool red';
+}
+
+
+var whatsMyName = function (name) {
+ 
 		alert('My name is: '+ name);
-	}
+}
 
 
 
 
-	console.log ('Hey Welcome Back, Youre doing the whole trasnfering the java on here to an external file')
-	var car = {
+console.log ('Working on transferring the javascript and css to an external file(s). Making the java functions change and animate objects on the page')
+var car = {
 		make: 'VW',
 	    type: 'Polo',
 	    color: 'blue',
@@ -28,13 +35,12 @@
 	    },
 	    switchCar: function(isOn) {
 	    	console.log('turn car '+isOn)
-	    
+	    }
 	    	if(isOn == true) {
 	    		this.isTurnedOn = true;
 	    	}
 	    	else {
 	    		this.isTurnedOn = false;
 	    		}	
-	    	
-	    }
-	};
+	   } 	
+	    
